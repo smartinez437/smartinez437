@@ -97,12 +97,24 @@
 <!-- 1. Tarjeta generada localmente por GitHub Actions -->
 [![Top Languages](./profile/top-langs.svg)](https://github.com/smartinez437)
 
-<!-- 2. Tarjetas llamando a la API directamente -->
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/smartinez437)
-
 [![GitHub streak](https://streak-stats.demolab.com/?user=smartinez437&theme=tokyonight&hide_border=true)](https://github.com/smartinez437)
 
 </div>
 
+<div align="center">
+
 ## 🔗 Connect with me
-<p align="left"> <a href="mailto:stivenmartinez437@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a> <a href="https://www.linkedin.com/in/smartinez2000"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> </p>
+
+<p align="center">
+  <a href="https://www.stivenmartinez.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Website-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://www.linkedin.com/in/smartinez2000" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:stivenmartinez437@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</p>
+
+</div>
