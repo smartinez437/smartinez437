@@ -94,11 +94,11 @@
 
 <div align="center">
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/smartinez437)
 
-![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=smartinez437&layout=compact&theme=tokyonight&hide_border=true)
+[![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=smartinez437&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/smartinez437)
 
-![GitHub streak](https://streak-stats.demolab.com/?user=smartinez437&theme=tokyonight&hide_border=true)
+[![GitHub streak](https://streak-stats.demolab.com/?user=smartinez437&theme=tokyonight&hide_border=true)](https://github.com/smartinez437)
 
 </div>
 
