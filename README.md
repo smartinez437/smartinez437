@@ -31,111 +31,50 @@
 ## 🛠️ Tech Stack
 
 <script>
-async function renderTechStack() {
+async function loadTechStack() {
   try {
-    // Cargar JSON
-    const response = await fetch('https://raw.githubusercontent.com/smartinez2000/smartinez2000/main/data/tech-stack.json');
+    const url = 'https://raw.githubusercontent.com/smartinez437/smartinez437/main/data/tech-stack.json';
+    const response = await fetch(url);
     
-    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    if (!response.ok) throw new Error('Error al cargar');
     
     const techStackData = await response.json();
-    let html = '<div align="center" style="font-family: -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, sans-serif;">';
+    const container = document.getElementById('tech-stack-container');
     
-    Object.entries(techStackData).forEach(([category, tools]) => {
-      html += `
-        <h3 style="
-          margin: 30px 0 20px 0; 
-          font-size: 16px; 
-          font-weight: 700;
-          color: #1a1a1a;
-          letter-spacing: 0.5px;
-        ">
-          ${category}
-        </h3>
-        <div style="
-          display: flex; 
-          flex-wrap: wrap; 
-          justify-content: center; 
-          gap: 25px; 
-          margin-bottom: 30px;
-          padding: 15px 0;
-        ">
-      `;
+    let html = '<div align="center">';
+    
+    Object.entries(techStackData).forEach(function(entry) {
+      const category = entry[0];
+      const tools = entry[1];
       
-      tools.forEach(tool => {
-        html += `
-          <div style="
-            text-align: center; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-            gap: 10px;
-            transition: transform 0.2s ease;
-          "
-          onmouseenter="this.style.transform='scale(1.1)'"
-          onmouseleave="this.style.transform='scale(1)'"
-          >
-            <div style="
-              width: 70px;
-              height: 70px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              background: #f6f8fa;
-              border-radius: 8px;
-              padding: 5px;
-            ">
-              <img 
-                alt="${tool.name}" 
-                src="${tool.logo}"
-                title="${tool.name}"
-                loading="lazy"
-                style="
-                  max-width: 50px;
-                  max-height: 50px;
-                  object-fit: contain;
-                "
-              />
-            </div>
-            <span style="
-              font-size: 12px; 
-              color: #555; 
-              font-weight: 600;
-              width: 75px;
-              word-wrap: break-word;
-              line-height: 1.3;
-            ">
-              ${tool.name}
-            </span>
-          </div>
-        `;
+      html += '<h3 style="margin: 30px 0 20px 0;">' + category + '</h3>';
+      html += '<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 30px;">';
+      
+      tools.forEach(function(tool) {
+        html += '<div style="text-align: center;">' +
+                '<img alt="' + tool.name + '" height="50" src="' + tool.logo + '" title="' + tool.name + '" />' +
+                '<p style="font-size: 12px; margin: 8px 0 0 0;">' + tool.name + '</p>' +
+                '</div>';
       });
       
       html += '</div>';
     });
     
     html += '</div>';
-    
-    const container = document.getElementById('tech-stack-container');
-    if (container) {
-      container.innerHTML = html;
-    }
-  } catch (error) {
-    console.error('Error al cargar tech stack:', error);
-    const container = document.getElementById('tech-stack-container');
-    if (container) {
-      container.innerHTML = '<p style="color: #999;">No se pudo cargar el tech stack</p>';
-    }
+    container.innerHTML = html;
+  } catch(error) {
+    console.error('Error:', error);
+    document.getElementById('tech-stack-container').innerHTML = '<p>Error cargando tech stack</p>';
   }
 }
 
-// Ejecutar cuando DOM esté listo
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', renderTechStack);
+  document.addEventListener('DOMContentLoaded', loadTechStack);
 } else {
-  renderTechStack();
+  loadTechStack();
 }
 </script>
+
 
 <div id="tech-stack-container">
   <p align="center">Cargando tech stack...</p>
