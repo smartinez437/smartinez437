@@ -33,7 +33,7 @@
 <script>
 async function loadTechStack() {
   try {
-    const url = 'https://raw.githubusercontent.com/smartinez437/smartinez437/main/data/tech-stack.json';
+    const url = 'https://github.com/smartinez437/smartinez437/raw/main/data/tech-stack.json';
     const response = await fetch(url);
     
     if (!response.ok) throw new Error('Error al cargar');
