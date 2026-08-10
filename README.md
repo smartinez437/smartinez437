@@ -31,48 +31,28 @@
 ## 🛠️ Tech Stack
 
 <script>
-async function loadTechStack() {
-  try {
-    const url = 'https://github.com/smartinez437/smartinez437/raw/main/data/tech-stack.json';
-    const response = await fetch(url);
-    
-    if (!response.ok) throw new Error('Error al cargar');
-    
-    const techStackData = await response.json();
-    const container = document.getElementById('tech-stack-container');
-    
-    let html = '<div align="center">';
-    
-    Object.entries(techStackData).forEach(function(entry) {
-      const category = entry[0];
-      const tools = entry[1];
-      
-      html += '<h3 style="margin: 30px 0 20px 0;">' + category + '</h3>';
-      html += '<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-bottom: 30px;">';
-      
-      tools.forEach(function(tool) {
-        html += '<div style="text-align: center;">' +
-                '<img alt="' + tool.name + '" height="50" src="' + tool.logo + '" title="' + tool.name + '" />' +
-                '<p style="font-size: 12px; margin: 8px 0 0 0;">' + tool.name + '</p>' +
-                '</div>';
-      });
-      
+function renderTechStack() {
+  fetch('https://raw.githubusercontent.com/smartinez437/smartinez437/main/data/tech-stack.json')
+    .then(r => r.json())
+    .then(data => {
+      let html = '<div align="center">';
+      for (let category in data) {
+        html += '<h3>' + category + '</h3>';
+        html += '<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-bottom:30px;">';
+        data[category].forEach(tool => {
+          html += '<div style="text-align:center;">';
+          html += '<img alt="' + tool.name + '" height="50" src="' + tool.logo + '"/>';
+          html += '<p style="font-size:12px; margin:5px 0;">' + tool.name + '</p>';
+          html += '</div>';
+        });
+        html += '</div>';
+      }
       html += '</div>';
-    });
-    
-    html += '</div>';
-    container.innerHTML = html;
-  } catch(error) {
-    console.error('Error:', error);
-    document.getElementById('tech-stack-container').innerHTML = '<p>Error cargando tech stack</p>';
-  }
+      document.getElementById('tech-stack').innerHTML = html;
+    })
+    .catch(e => console.log('Error:', e));
 }
-
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', loadTechStack);
-} else {
-  loadTechStack();
-}
+renderTechStack();
 </script>
 
 
