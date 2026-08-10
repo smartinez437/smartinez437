@@ -34,7 +34,7 @@
 async function renderTechStack() {
   try {
     // Cargar JSON
-    const response = await fetch('https://raw.githubusercontent.com/smartinez437/smartinez437/main/data/tech-stack.json');
+    const response = await fetch('https://github.com/smartinez437/smartinez437/raw/main/data/tech-stack.json');
     
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     
