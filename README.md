@@ -1,0 +1,198 @@
+<div align="center">
+  <h1>
+    Hi there, I'm Stiven
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40px">
+  </h1>
+
+  <img src="https://komarev.com/ghpvc/?username=smartinez437&style=for-the-badge&color=07C18C" alt="Profile Views" />
+  <br>
+
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&pause=1200&duration=3000&color=07C18C&center=true&vCenter=true&width=900&height=50&lines=%24+python+analyst.py;%5BINFO%5D+Loading+data...;%7B+%22SQL%22%3A+%E2%9C%93%2C+%22Python%22%3A+%E2%9C%93%2C+%22R%22%3A+%E2%9C%93%2C+%22Spark%22%3A+%E2%9C%93+%7D;%24+analyze+--insights;%3E+Turning+data+into+decisions" alt="Terminal Animation" />
+  <br>
+
+  <img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width="200" />
+</div>
+ 
+
+## 😎 About me:
+<p align="center">
+  <h3>
+    <samp>
+      Data & BI Analyst who turns raw data into decisions.
+      I work day-to-day with <b>Power BI, Excel, SQL and Python</b> — building interactive dashboards, automating reports and modeling data from multiple sources.
+      <br><br>
+      My background in <b>financial and accounting analysis</b> helps me tie the numbers to real business impact.
+    </samp>
+  </h3>
+  <br>
+</p>
+
+---
+## 🛠️ Tech Stack
+
+<script>
+async function renderTechStack() {
+  try {
+    // Cargar JSON
+    const response = await fetch('https://raw.githubusercontent.com/smartinez2000/smartinez2000/main/data/tech-stack.json');
+    
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    
+    const techStackData = await response.json();
+    let html = '<div align="center" style="font-family: -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, sans-serif;">';
+    
+    Object.entries(techStackData).forEach(([category, tools]) => {
+      html += `
+        <h3 style="
+          margin: 30px 0 20px 0; 
+          font-size: 16px; 
+          font-weight: 700;
+          color: #1a1a1a;
+          letter-spacing: 0.5px;
+        ">
+          ${category}
+        </h3>
+        <div style="
+          display: flex; 
+          flex-wrap: wrap; 
+          justify-content: center; 
+          gap: 25px; 
+          margin-bottom: 30px;
+          padding: 15px 0;
+        ">
+      `;
+      
+      tools.forEach(tool => {
+        html += `
+          <div style="
+            text-align: center; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap: 10px;
+            transition: transform 0.2s ease;
+          "
+          onmouseenter="this.style.transform='scale(1.1)'"
+          onmouseleave="this.style.transform='scale(1)'"
+          >
+            <div style="
+              width: 70px;
+              height: 70px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              background: #f6f8fa;
+              border-radius: 8px;
+              padding: 5px;
+            ">
+              <img 
+                alt="${tool.name}" 
+                src="${tool.logo}"
+                title="${tool.name}"
+                loading="lazy"
+                style="
+                  max-width: 50px;
+                  max-height: 50px;
+                  object-fit: contain;
+                "
+              />
+            </div>
+            <span style="
+              font-size: 12px; 
+              color: #555; 
+              font-weight: 600;
+              width: 75px;
+              word-wrap: break-word;
+              line-height: 1.3;
+            ">
+              ${tool.name}
+            </span>
+          </div>
+        `;
+      });
+      
+      html += '</div>';
+    });
+    
+    html += '</div>';
+    
+    const container = document.getElementById('tech-stack-container');
+    if (container) {
+      container.innerHTML = html;
+    }
+  } catch (error) {
+    console.error('Error al cargar tech stack:', error);
+    const container = document.getElementById('tech-stack-container');
+    if (container) {
+      container.innerHTML = '<p style="color: #999;">No se pudo cargar el tech stack</p>';
+    }
+  }
+}
+
+// Ejecutar cuando DOM esté listo
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', renderTechStack);
+} else {
+  renderTechStack();
+}
+</script>
+
+<div id="tech-stack-container">
+  <p align="center">Cargando tech stack...</p>
+</div>
+
+<details>
+<summary><b>Ver herramientas en texto</b></summary>
+
+**Lenguajes:** Python · R  
+**Datos & ML:** NumPy · Pandas · Scikit-learn · Seaborn  
+**BI:** Power BI · Tableau · Looker · Metabase · Google Analytics  
+**Bases de Datos:** SQL Server · PostgreSQL · MySQL · MariaDB · MongoDB  
+**Cloud:** Apache Spark · BigQuery · Supabase · Stratio  
+**Frameworks:** FastAPI · Flask  
+**Herramientas:** Git · Jupyter · VS Code · PyCharm · Notion  
+**IA:** Claude · MCP
+
+</details>
+
+---
+## 🎖️ Certificaciones
+
+| Certificado | Empresa | Fecha | Credencial | Tecnologías |
+|:---|:---|:---:|:---|:---|
+| **Google Advanced Data Analytics** | ![Google](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=white) | Ago 2026 | [🔗 Ver Credencial](https://www.coursera.org/account/accomplishments/professional-cert/P7LQAK334NCM) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Analytics](https://img.shields.io/badge/Analytics-FFB900?logo=google&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white) |
+| **The Nuts and Bolts of Machine Learning** | ![Google](https://img.shields.io/badge/Google-4285F4?logo=google&logoColor=white) | Ago 2026 | [🔗 Ver Credencial](https://www.coursera.org/account/accomplishments/certificate/0Q7V7G33T0RN) | ![MachineLearning](https://img.shields.io/badge/Machine%20Learning-FF6B00?logo=tensorflow&logoColor=white) ![Predictive](https://img.shields.io/badge/Modelos%20Predictivos-blue) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
+| **Certificación de Google Analytics** | ![Google](https://img.shields.io/badge/Google%20Skillshop-4285F4?logo=google&logoColor=white) | May 2026 | [🔗 Ver Credencial](https://skillshop.credential.net/fdb7e885-58ca-4f1b-89c5-19ea294e2205#acc.hJftLXrY) | ![Analytics](https://img.shields.io/badge/GA4-E37400?logo=google&logoColor=white) ![DataInsights](https://img.shields.io/badge/Data%20Insights-FFB900) |
+| **Academy Accreditation - Generative AI Fundamentals** | ![Databricks](https://img.shields.io/badge/Databricks-FF3621?logo=databricks&logoColor=white) | Oct 2025 | [🔗 Ver Credencial](https://credentials.databricks.com/dde82920-474d-4296-b82a-9fd8a12c57c9#acc.E0Z5SXOR) | ![IA](https://img.shields.io/badge/Generative%20AI-FF6B35?logoColor=white) ![Spark](https://img.shields.io/badge/Spark-E25041?logo=apache-spark&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-6F42C1) |
+| **Extracción de Datos de la Web** | ![Udemy](https://img.shields.io/badge/Udemy-A435F0?logo=udemy&logoColor=white) | Jun 2025 | [🔗 Ver Credencial](https://www.udemy.com/certificate/UC-66f2f48a-249c-4347-a5b2-6ce32eee4130/) | ![WebScraping](https://img.shields.io/badge/Web%20Scraping-green?logo=python&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![DataExtraction](https://img.shields.io/badge/Data%20Extraction-009688) |
+| **DataOps Fundamentals** | ![DataKitchen](https://img.shields.io/badge/DataKitchen-0A6CCE?logoColor=white) | Jun 2025 | [🔗 Ver Credencial](https://learn.datakitchen.io/certificate/ODIwMDBfMjE5MDYxMQ) | ![DataOps](https://img.shields.io/badge/DataOps-0078D4?logoColor=white) ![Hadoop](https://img.shields.io/badge/Hadoop-F7931E?logo=apache-hadoop&logoColor=white) ![ETL](https://img.shields.io/badge/ETL-FF6B6B) |
+| **SQL Avanzado** | ![IEP](https://img.shields.io/badge/IEP%20Postgrado-003A70?logoColor=white) | Abr 2025 | [🔗 Ver Credencial](https://drive.google.com/file/d/1zaZ7cChzhPeeSWz2ZoWwX_0KRWJfocuj/view?pli=1) | ![SQL](https://img.shields.io/badge/SQL%20Avanzado-4479A1?logo=postgresql&logoColor=white) ![Optimization](https://img.shields.io/badge/Query%20Optimization-FFB900) ![Database](https://img.shields.io/badge/Database%20Design-336791) |
+
+---
+
+## 📖 En Formación
+
+| Programa | Institución | Estado | Inicio |
+|:---|:---|:---:|:---|
+| **MBA - Business Intelligence y Big Data** | ![IEP](https://img.shields.io/badge/IEP%20Postgrado-003A70?logoColor=white) | 🔄 En progreso | 2025 |
+| **Diplomado en IA Generativa** | ![Asturias](https://img.shields.io/badge/Asturias%20Corporación-6B2E73?logoColor=white) | 🔄 En progreso | 2025 |
+
+---
+
+
+## 📊 GitHub Stats
+<p align="left"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=smartinez437&layout=compact&theme=tokyonight&hide_border=true" alt="Top langs" /> </p> <p align="left"> <img src="https://streak-stats.demolab.com/?user=smartinez437&theme=tokyonight&hide_border=true" alt="GitHub streak" /> </p>
+
+## 🐍 Recent Activity (animated graph)
+<p align="left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/smartinez437/smartinez437/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/smartinez437/smartinez437/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/smartinez437/smartinez437/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  </picture>
+</p>
+
+
+
+## 🔗 Connect with me
+<p align="left"> <a href="mailto:stivenmartinez437@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a> <a href="https://www.linkedin.com/in/smartinez2000"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> </p>

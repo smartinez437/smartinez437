@@ -1,0 +1,142 @@
+{
+    "💻 Lenguajes de Programación": [
+        {
+            "name": "Python",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/python.svg"
+        },
+        {
+            "name": "R",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/r-lang.svg"
+        }
+    ],
+    "📊 Librerías de Datos & ML": [
+        {
+            "name": "NumPy",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/numpy.svg"
+        },
+        {
+            "name": "Pandas",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+        },
+        {
+            "name": "Scikit-learn",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+        },
+        {
+            "name": "Seaborn",
+            "logo": "assets/seaborn-icon.svg"
+        }
+    ],
+    "📈 BI & Visualización": [
+        {
+            "name": "Power BI",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/microsoft-power-bi.svg"
+        },
+        {
+            "name": "Tableau",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/tableau-icon.svg"
+        },
+        {
+            "name": "Looker",
+            "logo": "assets/looker-icon.svg"
+        },
+        {
+            "name": "Metabase",
+            "logo": "assets/metabase.svg"
+        },
+        {
+            "name": "Google Analytics",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/google-analytics.svg"
+        },
+        {
+            "name": "Excel",
+            "logo": "https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons/icons/file_type_excel.svg"
+        }
+    ],
+    "🗄️ Bases de Datos": [
+        {
+            "name": "SQL Server",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg"
+        },
+        {
+            "name": "PostgreSQL",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/postgresql.svg"
+        },
+        {
+            "name": "MySQL",
+            "logo": "assets/mysql.svg"
+        },
+        {
+            "name": "MariaDB",
+            "logo": "assets/mariadb-icon.svg"
+        },
+        {
+            "name": "MongoDB",
+            "logo": "assets/mongodb-icon.svg"
+        }
+    ],
+    "☁️ Cloud & Big Data": [
+        {
+            "name": "Apache Spark",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg"
+        },
+        {
+            "name": "Google BigQuery",
+            "logo": "https://www.vectorlogo.zone/logos/google_bigquery/google_bigquery-icon.svg"
+        },
+        {
+            "name": "Supabase",
+            "logo": "assets/supabase-icon.svg"
+        },
+        {
+            "name": "Stratio",
+            "logo": "assets/stratio-white.svg"
+        }
+    ],
+    "⚙️ Frameworks & APIs": [
+        {
+            "name": "FastAPI",
+            "logo": "assets/fastapi-icon.svg"
+        },
+        {
+            "name": "Flask",
+            "logo": "assets/flask.svg"
+        }
+    ],
+    "🛠️ Herramientas de Desarrollo": [
+        {
+            "name": "Git",
+            "logo": "https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/git-icon.svg"
+        },
+        {
+            "name": "Jupyter",
+            "logo": "assets/jupyter.svg"
+        },
+        {
+            "name": "VS Code",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+        },
+        {
+            "name": "PyCharm",
+            "logo": "assets/pycharm.svg"
+        },
+        {
+            "name": "Notion",
+            "logo": "assets/notion-icon.svg"
+        }
+    ],
+    "🤖 IA & Otros": [
+        {
+            "name": "Claude AI",
+            "logo": "assets/claude-icon.svg"
+        },
+        {
+            "name": "MCP",
+            "logo": "assets/model-context-protocol-icon.svg"
+        },
+        {
+            "name": "JSON Schema",
+            "logo": "assets/json-schema-icon.svg"
+        }
+    ]
+}
