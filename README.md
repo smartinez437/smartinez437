@@ -94,9 +94,11 @@
 
 <div align="center">
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/smartinez437)
+<!-- 1. Tarjeta generada localmente por GitHub Actions -->
+[![Top Languages](./profile/top-langs.svg)](https://github.com/smartinez437)
 
-[![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=smartinez437&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/smartinez437)
+<!-- 2. Tarjetas llamando a la API directamente -->
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/smartinez437)
 
 [![GitHub streak](https://streak-stats.demolab.com/?user=smartinez437&theme=tokyonight&hide_border=true)](https://github.com/smartinez437)
 
