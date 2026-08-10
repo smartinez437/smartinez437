@@ -91,18 +91,16 @@
 
 
 ## 📊 GitHub Stats
-<p align="left"> <img height="165" src="https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" /> <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=smartinez437&layout=compact&theme=tokyonight&hide_border=true" alt="Top langs" /> </p> <p align="left"> <img src="https://streak-stats.demolab.com/?user=smartinez437&theme=tokyonight&hide_border=true" alt="GitHub streak" /> </p>
 
-## 🐍 Recent Activity (animated graph)
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/smartinez437/smartinez437/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/smartinez437/smartinez437/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/smartinez437/smartinez437/output/github-contribution-grid-snake.svg" alt="snake animation" />
-  </picture>
-</p>
+<div align="center">
 
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=smartinez437&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
+![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=smartinez437&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub streak](https://streak-stats.demolab.com/?user=smartinez437&theme=tokyonight&hide_border=true)
+
+</div>
 
 ## 🔗 Connect with me
 <p align="left"> <a href="mailto:stivenmartinez437@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a> <a href="https://www.linkedin.com/in/smartinez2000"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> </p>
