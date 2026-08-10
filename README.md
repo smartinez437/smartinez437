@@ -12,7 +12,6 @@
 
   <img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width="200" />
 </div>
- 
 
 ## 😎 About me:
 <p align="center">
@@ -29,50 +28,42 @@
 
 ---
 ## 🛠️ Tech Stack
+<div align="center">
 
-<script>
-function renderTechStack() {
-  fetch('https://raw.githubusercontent.com/smartinez437/smartinez437/main/data/tech-stack.json')
-    .then(r => r.json())
-    .then(data => {
-      let html = '<div align="center">';
-      for (let category in data) {
-        html += '<h3>' + category + '</h3>';
-        html += '<div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-bottom:30px;">';
-        data[category].forEach(tool => {
-          html += '<div style="text-align:center;">';
-          html += '<img alt="' + tool.name + '" height="50" src="' + tool.logo + '"/>';
-          html += '<p style="font-size:12px; margin:5px 0;">' + tool.name + '</p>';
-          html += '</div>';
-        });
-        html += '</div>';
-      }
-      html += '</div>';
-      document.getElementById('tech-stack').innerHTML = html;
-    })
-    .catch(e => console.log('Error:', e));
-}
-renderTechStack();
-</script>
+<img height="50" alt="Python" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/python.svg" />&nbsp;&nbsp;
+<img height="50" alt="R" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/r-lang.svg" />&nbsp;&nbsp;
+<img height="50" alt="NumPy" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/numpy.svg" />&nbsp;&nbsp;
+<img height="50" alt="Pandas" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />&nbsp;&nbsp;
+<img height="50" alt="Scikit-learn" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" />&nbsp;&nbsp;
+<img height="50" alt="Seaborn" src="assets/seaborn-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Power BI" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/microsoft-power-bi.svg" />&nbsp;&nbsp;
+<img height="50" alt="Tableau" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/tableau-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Looker" src="assets/looker-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Metabase" src="assets/metabase.svg" />&nbsp;&nbsp;
+<img height="50" alt="Google Analytics" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/google-analytics.svg" />&nbsp;&nbsp;
+<img height="50" alt="Excel" src="https://cdn.jsdelivr.net/gh/vscode-icons/vscode-icons/icons/file_type_excel.svg" />&nbsp;&nbsp;
+<img height="50" alt="SQL Server" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />&nbsp;&nbsp;
+<img height="50" alt="PostgreSQL" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/postgresql.svg" />&nbsp;&nbsp;
+<img height="50" alt="MySQL" src="assets/mysql.svg" />&nbsp;&nbsp;
+<img height="50" alt="MariaDB" src="assets/mariadb-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="MongoDB" src="assets/mongodb-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Apache Spark" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" />&nbsp;&nbsp;
+<img height="50" alt="BigQuery" src="https://www.vectorlogo.zone/logos/google_bigquery/google_bigquery-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Supabase" src="assets/supabase-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Stratio" src="assets/stratio-white.svg" />&nbsp;&nbsp;
+<img height="50" alt="FastAPI" src="assets/fastapi-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Flask" src="assets/flask.svg" />&nbsp;&nbsp;
+<img height="50" alt="Git" src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/git-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Jupyter" src="assets/jupyter.svg" />&nbsp;&nbsp;
+<img height="50" alt="VS Code" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />&nbsp;&nbsp;
+<img height="50" alt="PyCharm" src="assets/pycharm.svg" />&nbsp;&nbsp;
+<img height="50" alt="Notion" src="assets/notion-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Claude AI" src="assets/claude-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="MCP" src="assets/model-context-protocol-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="JSON Schema" src="assets/json-schema-icon.svg" />&nbsp;&nbsp;
+<img height="50" alt="Datasette" src="assets/datasette-icon.svg" />
 
-
-<div id="tech-stack-container">
-  <p align="center">Cargando tech stack...</p>
 </div>
-
-<details>
-<summary><b>Ver herramientas en texto</b></summary>
-
-**Lenguajes:** Python · R  
-**Datos & ML:** NumPy · Pandas · Scikit-learn · Seaborn  
-**BI:** Power BI · Tableau · Looker · Metabase · Google Analytics  
-**Bases de Datos:** SQL Server · PostgreSQL · MySQL · MariaDB · MongoDB  
-**Cloud:** Apache Spark · BigQuery · Supabase · Stratio  
-**Frameworks:** FastAPI · Flask  
-**Herramientas:** Git · Jupyter · VS Code · PyCharm · Notion  
-**IA:** Claude · MCP
-
-</details>
 
 ---
 ## 🎖️ Certificaciones
